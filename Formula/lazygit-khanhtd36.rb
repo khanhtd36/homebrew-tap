@@ -3,6 +3,8 @@ class LazygitKhanhtd36 < Formula
   homepage "https://github.com/khanhtd36/lazygit"
   version "0.65.1"
 
+  conflicts_with "lazygit", because: "both install a lazygit binary"
+
   on_macos do
     on_arm do
       url "https://github.com/khanhtd36/lazygit/releases/download/v0.65.1/lazygit_0.65.1_darwin_arm64.tar.gz"
