@@ -15,10 +15,10 @@ class LazygitKhanhtd36 < Formula
   end
 
   def install
-    bin.install "lazygit" => "lazygit-khanhtd36"
+    bin.install "lazygit"
   end
 
   test do
-    assert_match "lazygit", shell_output("#{bin}/lazygit-khanhtd36 --help")
+    assert_match "lazygit", shell_output("#{bin}/lazygit --help")
   end
 end
