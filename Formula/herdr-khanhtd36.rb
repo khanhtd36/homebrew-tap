@@ -1,17 +1,17 @@
 class HerdrKhanhtd36 < Formula
   desc "Terminal workspace manager for AI coding agents (khanhtd36's fork)"
   homepage "https://github.com/khanhtd36/herdr"
-  version "0.9.1-khanhtd36.7"
+  version "0.9.3-khanhtd36.1"
   conflicts_with "herdr"
 
   on_macos do
     on_arm do
-      url "https://github.com/khanhtd36/herdr/releases/download/fork-v0.9.1-khanhtd36.7/herdr-macos-aarch64"
-      sha256 "e36882b0acc7b100f5373f1c64278cee3cdd15a5e9545a540c48b4bb5624dfb8"
+      url "https://github.com/khanhtd36/herdr/releases/download/fork-v0.9.3-khanhtd36.1/herdr-macos-aarch64"
+      sha256 "a77e478e18139158cd32c44e69eacc7dfb9bc338bbad007f928e14de031b8e91"
     end
     on_intel do
-      url "https://github.com/khanhtd36/herdr/releases/download/fork-v0.9.1-khanhtd36.7/herdr-macos-x86_64"
-      sha256 "c97846c66edf3d0d33940872e9dd259bfc7b3650bbdaa845aa43c1765b173d2e"
+      url "https://github.com/khanhtd36/herdr/releases/download/fork-v0.9.3-khanhtd36.1/herdr-macos-x86_64"
+      sha256 "4799fdb0a189e17828d9eecb208586980d80c274a0bef74098a8eff90e49ca51"
     end
   end
 
