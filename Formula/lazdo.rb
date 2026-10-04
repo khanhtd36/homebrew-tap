@@ -1,28 +1,28 @@
 class Lazdo < Formula
   desc "Lazy Azure DevOps: pull requests, repos and pipelines in your terminal"
   homepage "https://github.com/khanhtd36/lazdo"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/khanhtd36/lazdo/releases/download/v0.1.0/lazdo_0.1.0_darwin_arm64.tar.gz"
-      sha256 "fe75fa92a0c326ff8e6614ddaa5a0e7a8718510339405c9d0327b270d78405f3"
+      url "https://github.com/khanhtd36/lazdo/releases/download/v0.2.0/lazdo_0.2.0_darwin_arm64.tar.gz"
+      sha256 "9c7da36a90f236ac3d2a12f13c248c9a5c848ff1b6c36f39f1f680bfca6c33b1"
     end
     on_intel do
-      url "https://github.com/khanhtd36/lazdo/releases/download/v0.1.0/lazdo_0.1.0_darwin_x86_64.tar.gz"
-      sha256 "b7d6698bdb4f3a03cdd22b12be624c4dbfbadccc15a343dd2829178ba2e1319b"
+      url "https://github.com/khanhtd36/lazdo/releases/download/v0.2.0/lazdo_0.2.0_darwin_x86_64.tar.gz"
+      sha256 "2a6582573de10f14b15dc8d1826ec35b85683513a14723b791066bd02c9f489b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/khanhtd36/lazdo/releases/download/v0.1.0/lazdo_0.1.0_linux_arm64.tar.gz"
-      sha256 "780d3356795754a1cc2cde381b1d061d8b6440b6de3ed6acdf6d91d1984f8611"
+      url "https://github.com/khanhtd36/lazdo/releases/download/v0.2.0/lazdo_0.2.0_linux_arm64.tar.gz"
+      sha256 "6cf58ba2b09afbc8d87e6fe921d5d331eff6af44caaa6c6ac84c1aa66b3c5716"
     end
     on_intel do
-      url "https://github.com/khanhtd36/lazdo/releases/download/v0.1.0/lazdo_0.1.0_linux_x86_64.tar.gz"
-      sha256 "d262c627915946d603d3b912da5f6968de5cc12fe482541f71b5ae7d2b17a012"
+      url "https://github.com/khanhtd36/lazdo/releases/download/v0.2.0/lazdo_0.2.0_linux_x86_64.tar.gz"
+      sha256 "56871b018641bce3d903fe569dab17792e84cacdaeecd6726c5240e498008cd8"
     end
   end
 
