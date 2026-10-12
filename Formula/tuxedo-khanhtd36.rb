@@ -1,29 +1,29 @@
 class TuxedoKhanhtd36 < Formula
   desc "Fast, keyboard-driven terminal UI for todo.txt (khanhtd36's fork)"
   homepage "https://github.com/khanhtd36/tuxedo"
-  version "2026.8.1-khanhtd36.2"
+  version "2026.8.1-khanhtd36.3"
   license "MIT"
   conflicts_with "tuxedo", because: "both install a tuxedo binary"
 
   on_macos do
     on_arm do
-      url "https://github.com/khanhtd36/tuxedo/releases/download/fork-v2026.8.1-khanhtd36.2/tuxedo-fork-v2026.8.1-khanhtd36.2-aarch64-apple-darwin.tar.gz"
-      sha256 "7bd2d96935961237c61e5ab31b55c60f5639b8e2eb1674f9668f08bf6eb2a0a5"
+      url "https://github.com/khanhtd36/tuxedo/releases/download/fork-v2026.8.1-khanhtd36.3/tuxedo-fork-v2026.8.1-khanhtd36.3-aarch64-apple-darwin.tar.gz"
+      sha256 "0379da8511472371d9b4fd2823303d0d571f78e2e0ed5994b4df1ef2281b866c"
     end
     on_intel do
-      url "https://github.com/khanhtd36/tuxedo/releases/download/fork-v2026.8.1-khanhtd36.2/tuxedo-fork-v2026.8.1-khanhtd36.2-x86_64-apple-darwin.tar.gz"
-      sha256 "21b389d8fdc4112533c1a84c9fa98f4fb01262e5c1c0f472555af1baa6352809"
+      url "https://github.com/khanhtd36/tuxedo/releases/download/fork-v2026.8.1-khanhtd36.3/tuxedo-fork-v2026.8.1-khanhtd36.3-x86_64-apple-darwin.tar.gz"
+      sha256 "867dbb0de109b09b5a503f8c793eed26bd2aca59b70aaca29cec1cb2715614e5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/khanhtd36/tuxedo/releases/download/fork-v2026.8.1-khanhtd36.2/tuxedo-fork-v2026.8.1-khanhtd36.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "028c125f283e7b6dcacb0ee5c2beffd9680a36aae466aedcfef22cece29a6f96"
+      url "https://github.com/khanhtd36/tuxedo/releases/download/fork-v2026.8.1-khanhtd36.3/tuxedo-fork-v2026.8.1-khanhtd36.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e039fd4cbc72c55501bffb7e619bf9906059e23a62b2aad2b14e9e3b6d73c3fc"
     end
     on_intel do
-      url "https://github.com/khanhtd36/tuxedo/releases/download/fork-v2026.8.1-khanhtd36.2/tuxedo-fork-v2026.8.1-khanhtd36.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d548084c3e8403b762f5730acf22a43bc1e3db8395322d31d0e2b326a3935b60"
+      url "https://github.com/khanhtd36/tuxedo/releases/download/fork-v2026.8.1-khanhtd36.3/tuxedo-fork-v2026.8.1-khanhtd36.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4156e0f5c2ff6cc5d3073be01c7211d92874bf1507de84a1097f9206332a143c"
     end
   end
 
