@@ -1,28 +1,28 @@
 class Latui < Formula
   desc "Lazy Atlassian: Jira and Confluence notifications and issues in your terminal"
   homepage "https://github.com/khanhtd36/latui"
-  version "0.2.4"
+  version "0.2.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/khanhtd36/latui/releases/download/v0.2.4/latui_0.2.4_darwin_arm64.tar.gz"
-      sha256 "0ae03e35a2d12816a3b6cef95d70edee13b34b737cb2b5870933cebbbdfe023a"
+      url "https://github.com/khanhtd36/latui/releases/download/v0.2.5/latui_0.2.5_darwin_arm64.tar.gz"
+      sha256 "8aefe89c146427b67c3b05a48a3bec28dafd4babe0807ce61d89381f57ddc3da"
     end
     on_intel do
-      url "https://github.com/khanhtd36/latui/releases/download/v0.2.4/latui_0.2.4_darwin_x86_64.tar.gz"
-      sha256 "782e88fc1a573c0db798207f86604774730b67af5bcf5b90387ebc9d344fac88"
+      url "https://github.com/khanhtd36/latui/releases/download/v0.2.5/latui_0.2.5_darwin_x86_64.tar.gz"
+      sha256 "e6acee1ee9dfa99c0566ffab40a4a4489e8e03e50cfd97e92785aac3c572afae"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/khanhtd36/latui/releases/download/v0.2.4/latui_0.2.4_linux_arm64.tar.gz"
-      sha256 "e18445ece246a86b0e5cae027fc38a3a802c63a887b11c7eec0730bb9a84b862"
+      url "https://github.com/khanhtd36/latui/releases/download/v0.2.5/latui_0.2.5_linux_arm64.tar.gz"
+      sha256 "7ac765f512600e373413e72be39711f36209dcd2ee30c22dff10b2296ea56fab"
     end
     on_intel do
-      url "https://github.com/khanhtd36/latui/releases/download/v0.2.4/latui_0.2.4_linux_x86_64.tar.gz"
-      sha256 "06c73c38c4f884d8609887b71f88a17ee81b2a71f5a64bf2833801f9e3ea55f3"
+      url "https://github.com/khanhtd36/latui/releases/download/v0.2.5/latui_0.2.5_linux_x86_64.tar.gz"
+      sha256 "6223e965192d0515ca52ce45cd6ab1769cff48065ba7d97d066e135f3b9751f2"
     end
   end
 
